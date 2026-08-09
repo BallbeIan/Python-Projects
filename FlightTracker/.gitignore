@@ -3,26 +3,3 @@
 venv/
 env/
 *.venv
-
-# Python cache/bytecode
-__pycache__/
-*.pyc
-*.pyo
-
-# Secrets & environment variables
-.env
-api.env
-*.env
-
-# Packaging/build artifacts
-*.egg-info/
-dist/
-build/
-
-# Editor/OS clutter
-.vscode/
-.DS_Store
-Thumbs.db
-
-# Logs
-*.log
