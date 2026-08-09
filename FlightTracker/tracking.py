@@ -1,12 +1,13 @@
 import os
 import requests
+import argparse
 from dotenv import load_dotenv, find_dotenv
 
 load_dotenv(("api.env"))
 
 def get_flight_information(number):
     "Retreives the API information from the .env folder, the sends the HTTP GET request with the necessary"
-    " information to retreive all data from the requested flight."
+    "information to retreive all data from the requested flight."
     api = os.getenv("aviation_api")
     url = os.getenv("aviation_url")
     params = {
