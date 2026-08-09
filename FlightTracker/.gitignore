@@ -27,4 +27,4 @@ Thumbs.db
 # Logs
 *.log
 
-pyvenv.cfg
+*.cfg
